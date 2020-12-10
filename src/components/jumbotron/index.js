@@ -7,6 +7,7 @@ import {
 	Image,
 	Title,
 	Item,
+	Break,
 } from "./styles/jumbotron";
 
 export default function Jumbotron({
