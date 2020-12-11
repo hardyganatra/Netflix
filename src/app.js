@@ -6,7 +6,7 @@ export default function App() {
 	return (
 		<>
 			<JumbotronContainer />
-			<FooterContainer></FooterContainer>
+			<FooterContainer />
 		</>
 	);
 }
