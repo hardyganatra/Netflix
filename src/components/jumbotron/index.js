@@ -7,14 +7,9 @@ import {
 	Image,
 	Title,
 	Item,
-	Break,
 } from "./styles/jumbotron";
 
-export default function Jumbotron({
-	children,
-	direction = "row",
-	...restProps
-}) {
+export default function Jumbotron({ children, direction = "row" }) {
 	return (
 		<Item>
 			<Inner direction={direction}>{children}</Inner>
